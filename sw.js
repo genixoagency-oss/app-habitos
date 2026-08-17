@@ -24,9 +24,9 @@ const RECURSOS = [
   './js/vista-hoy.js',
   './js/vista-habitos.js',
   './js/ajustes.js',
-  './iconos/icono-180.png',
-  './iconos/icono-192.png',
-  './iconos/icono-512.png',
+  './icono-180.png',
+  './icono-192.png',
+  './icono-512.png',
 ];
 
 self.addEventListener('install', (evento) => {
