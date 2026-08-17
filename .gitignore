@@ -1,0 +1,8 @@
+# Los iconos se generan al publicar con herramientas/iconos.py
+iconos/*.png
+
+node_modules/
+.playwright-mcp/
+*.log
+.DS_Store
+Thumbs.db
