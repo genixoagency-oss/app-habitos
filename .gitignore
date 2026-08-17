@@ -1,5 +1,6 @@
-# Los iconos se generan al publicar con herramientas/iconos.py
-iconos/*.png
+# Los iconos de iconos/ los genera herramientas/iconos.py, pero se guardan en
+# el repositorio: GitHub Pages sirve la rama tal cual y el icono de la pantalla
+# de inicio de iOS tiene que ser un PNG de verdad.
 
 node_modules/
 .playwright-mcp/
