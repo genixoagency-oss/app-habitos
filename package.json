@@ -1,0 +1,11 @@
+{
+  "name": "app-habitos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agenda por bloques + habitos + enfoque. Fase 1.",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "servir": "python -m http.server 8080"
+  }
+}
