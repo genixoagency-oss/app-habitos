@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hoy</title>
+  <meta name="description" content="Agenda por bloques, hábitos y enfoque en un solo día.">
+
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#181215" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Hoy">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./iconos/icono-180.png">
+  <link rel="icon" href="./iconos/icono-512.png" sizes="512x512" type="image/png">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="app">
+    <main id="lienzo" class="lienzo" tabindex="-1">
+      <div class="contenedor">
+        <div class="vacio">
+          <p class="vacio__titulo">Cargando tu día…</p>
+        </div>
+      </div>
+    </main>
+    <nav id="barra" class="barra" aria-label="Secciones"></nav>
+  </div>
+
+  <noscript>
+    <div class="contenedor">
+      <div class="vacio">
+        <p class="vacio__titulo">Hace falta JavaScript</p>
+        <p class="vacio__texto">Esta app guarda tus hábitos en el propio dispositivo y necesita JavaScript activado para funcionar.</p>
+      </div>
+    </div>
+  </noscript>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
